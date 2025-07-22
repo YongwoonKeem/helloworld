@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', credentialsId: 'github-token', url: 'https://github.com/유저이름/my-nodejs-project.git'
+                git branch: 'main', credentialsId: 'github-token', url: 'https://github.com/YongwoonKeem/my-nodejs-project.git'
             }
         }
         stage('Install Dependencies') {
