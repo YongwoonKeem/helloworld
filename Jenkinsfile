@@ -22,7 +22,7 @@ pipeline {
         stage('Build Docker Image') {
             steps {
                 script {
-                    docker.build('yongwoonkeem/helloworld')
+                    docker.build('rywkim/helloworld')
                 }
             }
         }
@@ -33,7 +33,7 @@ pipeline {
             steps {
                 script {
                     docker.withRegistry('https://index.docker.io/v1/', 'dockerhub-credentials') {
-                        docker.image('yongwoonkeem/helloworld').push('latest')
+                        docker.image('rywkim/helloworld').push('latest')
                     }
                 }
             }
