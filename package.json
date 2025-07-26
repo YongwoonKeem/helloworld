@@ -1,15 +1,23 @@
 {
-  "name": "my-nodejs-project",
+  "name": "helloworld",
   "version": "1.0.0",
+  "description": "helloworld!",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "test": "jest"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YongwoonKeem/helloworld.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YongwoonKeem/helloworld/issues"
+  },
+  "homepage": "https://github.com/YongwoonKeem/helloworld#readme",
   "dependencies": {
-    "express": "^4.18.2"
-  },
-  "devDependencies": {
-    "jest": "^29.7.0"
+    "express": "^5.1.0"
   }
 }
