@@ -23,4 +23,4 @@ jobs:
           username: ${{ secrets.DOCKER_USERNAME }}
           password: ${{ secrets.DOCKER_PASSWORD }}
       - name: Push Docker Image
-        run: docker push yongwoonkeem/helloworld:latest
+        run: docker push rywkim/helloworld:latest
