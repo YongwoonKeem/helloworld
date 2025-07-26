@@ -4,8 +4,8 @@
   "description": "helloworld!",
   "main": "index.js",
   "scripts": {
-   "start": "node index.js",
-   "test": "jest"
+    "start": "node index.js",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,8 @@
   "homepage": "https://github.com/YongwoonKeem/helloworld#readme",
   "dependencies": {
     "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "jest": "^30.0.5"
   }
 }
